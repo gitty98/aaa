@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GirlCode Future | Your Future Starts Here</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">GirlCode <span>Future</span> 💜</div>
+        <nav>
+            <a href="#learn">Learn</a>
+            <a href="#challenges">Challenges</a>
+            <a href="#role-models">Role Models</a>
+            <a href="#careers">Careers</a>
+        </nav>
+    </header>
+
+    <main>
+    <section class="hero">
+        <h1>Your ideas. Your skills. <span>Your future.</span></h1>
+        <p>
+        Welcome to GirlCode Future! Discover coding, explore technology
+        and find out just how much you can achieve.
+        </p>
+        <a class="button" href="#learn">Start exploring ✨</a>
+        <a class="button pink" href="#challenges">Try a challenge</a>
+    </section>
+
+    <section id="learn">
+        <h2 class="section-title">💻 Discover the world of coding</h2>
+        <p class="section-intro">
+        You don't need to know everything to get started.
+        Pick something that interests you and learn one step at a time!
+        </p>
+        <div class="cards">
+        <article class="card">
+            <div class="emoji">🌐</div>
+            <h3>HTML & CSS</h3>
+            <p>Learn how websites are created and design your very own page.</p>
+        </article>
+        <article class="card">
+            <div class="emoji">🐍</div>
+            <h3>Python</h3>
+            <p>Explore a beginner-friendly language used in apps, science and AI.</p>
+        </article>
+        <article class="card">
+            <div class="emoji">🎮</div>
+            <h3>Game Design</h3>
+            <p>Discover how games work and bring your creative ideas to life.</p>
+        </article>
+        <article class="card">
+            <div class="emoji">🤖</div>
+            <h3>Artificial Intelligence</h3>
+            <p>Find out how AI works and how people can use it responsibly.</p>
+        </article>
+        </div>
+    </section>
+
+    <section class="pale">
+        <h2 class="section-title">🌈 Find your starting point</h2>
+        <p class="section-intro">
+        There is no perfect age to start learning. Find a pathway that feels right.
+        </p>
+        <div class="cards">
+        <article class="age pink-bg">
+            <div class="emoji">🌱</div>
+            <h3>Ages 8–12</h3>
+            <p>Discover technology through games, creativity and fun activities.</p>
+        </article>
+        <article class="age mint">
+            <div class="emoji">🚀</div>
+            <h3>Ages 13–15</h3>
+            <p>Explore coding, build projects and discover STEM subjects.</p>
+        </article>
+        <article class="age pink-bg">
+            <div class="emoji">🎓</div>
+            <h3>Ages 16–18</h3>
+            <p>Build your skills, create a portfolio and explore future pathways.</p>
+        </article>
+        </div>
+    </section>
+
+    <section id="challenges">
+        <h2 class="section-title">🧩 Take a mini tech challenge!</h2>
+        <p class="section-intro">
+        Have a go at this beginner coding question. Every expert starts somewhere!
+        </p>
+        <div class="challenge">
+        <h3>What does HTML help you create?</h3>
+        <button class="button" onclick="answer(false)">A) A sandwich 🥪</button>
+        <button class="button" onclick="answer(true)">B) A web page 🌐</button>
+        <button class="button" onclick="answer(false)">C) A bicycle 🚲</button>
+        <p id="quiz-result" aria-live="polite"></p>
+        </div>
+    </section>
+
+    <section id="role-models" class="pink-bg">
+        <h2 class="section-title">👩‍💻 Women who changed technology</h2>
+        <p class="section-intro">
+        Meet some of the brilliant women whose ideas helped shape our world.
+        </p>
+        <div class="cards">
+        <article class="card">
+            <div class="emoji">📚</div>
+            <h3>Ada Lovelace</h3>
+            <p>Often recognised as the first computer programmer.</p>
+        </article>
+        <article class="card">
+            <div class="emoji">🚀</div>
+            <h3>Katherine Johnson</h3>
+            <p>Mathematician whose calculations helped make spaceflight possible.</p>
+        </article>
+        <article class="card">
+            <div class="emoji">💡</div>
+            <h3>Grace Hopper</h3>
+            <p>Computer science pioneer who helped develop early programming languages.</p>
+        </article>
+        <article class="card">
+            <div class="emoji">🕸️</div>
+            <h3>Radia Perlman</h3>
+            <p>Computer scientist known for important work on network technology.</p>
+        </article>
+        </div>
+    </section>
+
+    <section id="careers">
+        <h2 class="section-title">🔮 What could your future look like?</h2>
+        <p class="section-intro">
+        Technology offers lots of different paths. You can combine it with
+        creativity, science, design, problem-solving and helping people.
+        </p>
+        <div class="cards">
+        <article class="card">
+            <div class="emoji">👩‍💻</div>
+            <h3>Software Developer</h3>
+            <p>Build apps, websites and digital tools.</p>
+        </article>
+        <article class="card">
+            <div class="emoji">🔐</div>
+            <h3>Cybersecurity Expert</h3>
+            <p>Help protect people, information and computer systems.</p>
+        </article>
+        <article class="card">
+            <div class="emoji">🎨</div>
+            <h3>UX Designer</h3>
+            <p>Make websites and apps easier and more enjoyable to use.</p>
+        </article>
+        <article class="card">
+            <div class="emoji">🧠</div>
+            <h3>AI Researcher</h3>
+            <p>Explore how artificial intelligence can solve problems.</p>
+        </article>
+        </div>
+    </section>
+
+    <section class="pale" style="text-align:center">
+        <h2 class="section-title">💜 Your future starts with one idea</h2>
+        <p class="section-intro">
+        Be curious. Be creative. Keep learning. There is a place for you in technology.
+        </p>
+        <a class="button" href="#learn">Explore coding</a>
+    </section>
+    </main>
+
+    <footer>
+    <div class="logo" style="color:white">GirlCode <span>Future</span> 💜</div>
+    <p>Today's Curious Girls. Tomorrow's Tech Leaders.</p>
+    <p class="small">
+        A learning and inspiration project for girls aged 8–18.
+        <br>Privacy matters: this demo does not collect or store personal information.
+    </p>
+    <p class="small">© 2026 GirlCode Future</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
